@@ -48,7 +48,7 @@ class VerifyCodeViewController: UIViewController {
         guard let code = codeTextField.text else { return }
         
         AuthManager.shared.checkSMS(code: code) { [weak self] message in
-            guard let self = self else { return }
+            guard self != nil else { return }
             if let message = message {
                 print(message)
                 return

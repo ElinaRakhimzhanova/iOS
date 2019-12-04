@@ -60,7 +60,6 @@ class AuthViewController: UIViewController, AuthUIDelegate {
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
         markup()
     }
 

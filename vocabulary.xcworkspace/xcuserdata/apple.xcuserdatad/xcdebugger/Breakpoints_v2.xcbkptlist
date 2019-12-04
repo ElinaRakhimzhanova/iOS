@@ -68,5 +68,149 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49336EC5-5A0C-49C5-866F-2D6E98362AA4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vocabulary/AuthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "checkSMS(code:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61816542-AC32-48A5-9BD7-7E51DE60A3E4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vocabulary/AuthViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "sendSMS()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78E698DE-98C7-4AD3-B201-8931FAACD78C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vocabulary/AuthViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "sendSMS()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "78E698DE-98C7-4AD3-B201-8931FAACD78C - cb5b4328fd4e598a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "vocabulary.AuthViewController.(sendSMS in _EB845DDBCC47229338CAC46AAAB23AEB)() -&gt; ()"
+                  moduleName = "vocabulary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/iOS/vocabulary/vocabulary/AuthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "340">
+               </Location>
+               <Location
+                  uuid = "78E698DE-98C7-4AD3-B201-8931FAACD78C - 3bff220300db57d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in vocabulary.AuthViewController.(sendSMS in _EB845DDBCC47229338CAC46AAAB23AEB)() -&gt; ()"
+                  moduleName = "vocabulary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/iOS/vocabulary/vocabulary/AuthViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4CE2C1F5-4F7A-4708-98A0-931204F50E8F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vocabulary/VerifyCodeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "checkSMS()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4CE2C1F5-4F7A-4708-98A0-931204F50E8F - b433d5b126a77915"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "vocabulary.VerifyCodeViewController.(checkSMS in _C73B0EDE1730C75D2FE04E759F4AE3AC)() -&gt; ()"
+                  moduleName = "vocabulary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/iOS/vocabulary/vocabulary/VerifyCodeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "340">
+               </Location>
+               <Location
+                  uuid = "4CE2C1F5-4F7A-4708-98A0-931204F50E8F - 914c74de24cf2475"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;) -&gt; () in vocabulary.VerifyCodeViewController.(checkSMS in _C73B0EDE1730C75D2FE04E759F4AE3AC)() -&gt; ()"
+                  moduleName = "vocabulary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/iOS/vocabulary/vocabulary/VerifyCodeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17C4A420-ADB9-4F24-9F81-A6582CAD467C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "vocabulary/VerifyCodeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "checkSMS()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
