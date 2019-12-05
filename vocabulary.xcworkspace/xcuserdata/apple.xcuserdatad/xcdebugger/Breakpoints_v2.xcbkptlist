@@ -16,8 +16,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "18"
             endingLineNumber = "18"
-            landmarkName = "sendSMS(phone:uiDelegate:completion:)"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -32,40 +32,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "38"
             endingLineNumber = "38"
-            landmarkName = "checkSMS(code:completion:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "2CC4E0E5-8FB7-4928-B854-006766764F05 - 2fcb1daaf982b662"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "vocabulary.AuthManager.checkSMS(code: Swift.String, completion: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "vocabulary"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/iOS/vocabulary/vocabulary/AuthManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "643">
-               </Location>
-               <Location
-                  uuid = "2CC4E0E5-8FB7-4928-B854-006766764F05 - b2483a61ede226a9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRAuthDataResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in vocabulary.AuthManager.checkSMS(code: Swift.String, completion: (Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "vocabulary"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/iOS/vocabulary/vocabulary/AuthManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "151">
-               </Location>
-            </Locations>
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -80,8 +48,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"
             endingLineNumber = "31"
-            landmarkName = "checkSMS(code:completion:)"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -96,8 +64,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "55"
             endingLineNumber = "55"
-            landmarkName = "sendSMS()"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -112,40 +80,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
             endingLineNumber = "52"
-            landmarkName = "sendSMS()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "78E698DE-98C7-4AD3-B201-8931FAACD78C - cb5b4328fd4e598a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "vocabulary.AuthViewController.(sendSMS in _EB845DDBCC47229338CAC46AAAB23AEB)() -&gt; ()"
-                  moduleName = "vocabulary"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/iOS/vocabulary/vocabulary/AuthViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "52"
-                  endingLineNumber = "52"
-                  offsetFromSymbolStart = "340">
-               </Location>
-               <Location
-                  uuid = "78E698DE-98C7-4AD3-B201-8931FAACD78C - 3bff220300db57d1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in vocabulary.AuthViewController.(sendSMS in _EB845DDBCC47229338CAC46AAAB23AEB)() -&gt; ()"
-                  moduleName = "vocabulary"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/iOS/vocabulary/vocabulary/AuthViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "52"
-                  endingLineNumber = "52"
-                  offsetFromSymbolStart = "76">
-               </Location>
-            </Locations>
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -160,40 +96,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "50"
             endingLineNumber = "50"
-            landmarkName = "checkSMS()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4CE2C1F5-4F7A-4708-98A0-931204F50E8F - b433d5b126a77915"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "vocabulary.VerifyCodeViewController.(checkSMS in _C73B0EDE1730C75D2FE04E759F4AE3AC)() -&gt; ()"
-                  moduleName = "vocabulary"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/iOS/vocabulary/vocabulary/VerifyCodeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50"
-                  offsetFromSymbolStart = "340">
-               </Location>
-               <Location
-                  uuid = "4CE2C1F5-4F7A-4708-98A0-931204F50E8F - 914c74de24cf2475"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;) -&gt; () in vocabulary.VerifyCodeViewController.(checkSMS in _C73B0EDE1730C75D2FE04E759F4AE3AC)() -&gt; ()"
-                  moduleName = "vocabulary"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/apple/iOS/vocabulary/vocabulary/VerifyCodeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50"
-                  offsetFromSymbolStart = "124">
-               </Location>
-            </Locations>
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -208,8 +112,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "58"
             endingLineNumber = "58"
-            landmarkName = "checkSMS()"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

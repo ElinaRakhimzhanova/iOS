@@ -8,6 +8,7 @@
 
 import UIKit
 import SnapKit
+import CoreData
 
 class ViewController: UIViewController {
 
@@ -17,6 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         WordManager.shared.delegate = self
         markup()
+        
     }
         
     lazy var tableView: UITableView = {
@@ -41,6 +43,10 @@ class ViewController: UIViewController {
             $0.left.right.equalToSuperview()
         }
     }
+    
+    //private func saveData(){}
+    
+    //private func fetchData(){}
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {

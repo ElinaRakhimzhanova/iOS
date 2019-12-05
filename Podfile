@@ -14,5 +14,6 @@ target 'vocabulary' do
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
   pod 'Firebase/Analytics'
+  pod 'GoogleMaps'
 
 end

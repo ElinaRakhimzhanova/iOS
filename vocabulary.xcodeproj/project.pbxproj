@@ -12,6 +12,9 @@
 		188538482398295B007FDC7C /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188538472398295A007FDC7C /* AuthManager.swift */; };
 		1885384A2398299B007FDC7C /* VerifyCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188538492398299B007FDC7C /* VerifyCodeViewController.swift */; };
 		1885384C239829E8007FDC7C /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885384B239829E8007FDC7C /* AuthViewController.swift */; };
+		1885385123986275007FDC7C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885385023986275007FDC7C /* MapViewController.swift */; };
+		188538532398643B007FDC7C /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188538522398643B007FDC7C /* Place.swift */; };
+		188538552398B4F5007FDC7C /* ImageCacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188538542398B4F5007FDC7C /* ImageCacher.swift */; };
 		18A536E3239503540037AA60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A536E2239503540037AA60 /* AppDelegate.swift */; };
 		18A536E5239503540037AA60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A536E4239503540037AA60 /* SceneDelegate.swift */; };
 		18A536E7239503540037AA60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A536E6239503540037AA60 /* ViewController.swift */; };
@@ -29,6 +32,9 @@
 		188538472398295A007FDC7C /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		188538492398299B007FDC7C /* VerifyCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeViewController.swift; sourceTree = "<group>"; };
 		1885384B239829E8007FDC7C /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		1885385023986275007FDC7C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		188538522398643B007FDC7C /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		188538542398B4F5007FDC7C /* ImageCacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacher.swift; sourceTree = "<group>"; };
 		18A536DF239503540037AA60 /* vocabulary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vocabulary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A536E2239503540037AA60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A536E4239503540037AA60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +97,9 @@
 				188538472398295A007FDC7C /* AuthManager.swift */,
 				188538492398299B007FDC7C /* VerifyCodeViewController.swift */,
 				1885384B239829E8007FDC7C /* AuthViewController.swift */,
+				1885385023986275007FDC7C /* MapViewController.swift */,
+				188538522398643B007FDC7C /* Place.swift */,
+				188538542398B4F5007FDC7C /* ImageCacher.swift */,
 			);
 			path = vocabulary;
 			sourceTree = "<group>";
@@ -127,6 +136,7 @@
 				1885384D23983AE3007FDC7C /* ShellScript */,
 				1885384E23983AF2007FDC7C /* ShellScript */,
 				1885384F23983BC7007FDC7C /* ShellScript */,
+				6241B3B8F3CB0838BE8F7072 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,7 +253,6 @@
 			);
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-vocabulary/Pods-vocabulary-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-				"",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -252,6 +261,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vocabulary/Pods-vocabulary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6241B3B8F3CB0838BE8F7072 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vocabulary/Pods-vocabulary-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vocabulary/Pods-vocabulary-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vocabulary/Pods-vocabulary-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		944045A67B407BDF626F4792 /* [CP] Check Pods Manifest.lock */ = {
@@ -286,11 +312,14 @@
 				1885384A2398299B007FDC7C /* VerifyCodeViewController.swift in Sources */,
 				188538462397C51C007FDC7C /* WordViewController.swift in Sources */,
 				188538482398295B007FDC7C /* AuthManager.swift in Sources */,
+				1885385123986275007FDC7C /* MapViewController.swift in Sources */,
 				18A536E7239503540037AA60 /* ViewController.swift in Sources */,
+				188538552398B4F5007FDC7C /* ImageCacher.swift in Sources */,
 				18A536E3239503540037AA60 /* AppDelegate.swift in Sources */,
 				1885384423958093007FDC7C /* Word.swift in Sources */,
 				18A536E5239503540037AA60 /* SceneDelegate.swift in Sources */,
 				1885384C239829E8007FDC7C /* AuthViewController.swift in Sources */,
+				188538532398643B007FDC7C /* Place.swift in Sources */,
 				18A536F9239506830037AA60 /* WordManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
