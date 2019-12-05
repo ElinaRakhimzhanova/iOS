@@ -34,7 +34,7 @@ class VerifyCodeViewController: UIViewController {
     lazy var checkSMSButton: UIButton = {
         let button = UIButton()
         button.layer.cornerRadius = 10
-        button.backgroundColor = .cyan
+        button.backgroundColor = .green
         button.titleLabel?.font = UIFont.systemFont(ofSize: 17, weight: .regular)
         button.setTitleColor(.white, for: .normal)
         button.setTitle(Constants.sendSMSText, for: .normal)

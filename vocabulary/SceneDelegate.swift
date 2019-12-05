@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -18,9 +19,21 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
             let viewController = ViewController()
-            //viewController.view.backgroundColor = .yellow
             window.rootViewController = UINavigationController(rootViewController: viewController)
             self.window = window
+            //guard (scene as? UIWindowScene) != nil else { return }
+            window.frame = UIScreen.main.bounds
+            do {
+                try Auth.auth().signOut()
+            } catch {
+            
+            }
+            if Auth.auth().currentUser == nil {
+        
+                window.rootViewController = UINavigationController(rootViewController: AuthViewController())
+            } else {
+                window.rootViewController = UINavigationController(rootViewController: ViewController())
+            }
             window.makeKeyAndVisible()
         }
     }
@@ -30,6 +43,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This occurs shortly after the scene enters the background, or when its session is discarded.
         // Release any resources associated with this scene that can be re-created the next time the scene connects.
         // The scene may re-connect later, as its session was not neccessarily discarded (see `application:didDiscardSceneSessions` instead).
+    }
+    
+    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
+        for urlContext in URLContexts {
+            Auth.auth().canHandle(urlContext.url)
+        }
     }
 
     func sceneDidBecomeActive(_ scene: UIScene) {

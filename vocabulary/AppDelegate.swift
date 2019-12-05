@@ -9,9 +9,13 @@
 import UIKit
 import Firebase
 import CoreData
+import Crashlytics
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    
     
     static var persistentContainer: NSPersistentContainer = {
         let container = NSPersistentContainer(name: "CoreData")
@@ -26,6 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var navigationController: UINavigationController?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        Crashlytics.sharedInstance().crash()
         // Override point for customization after application launch.
         FirebaseApp.configure()
         
