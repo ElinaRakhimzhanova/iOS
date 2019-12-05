@@ -31,6 +31,14 @@ class WordViewController: UIViewController {
         return view
     }()
     
+    lazy var downloadButton: UIButton = {
+        let view = UIButton()
+        view.backgroundColor = .lightGray
+        view.setTitle("Download the image", for: .normal)
+        view.addTarget(self, action: #selector(downloadImage), for: .touchUpInside)
+        return view
+    }()
+    
     lazy var wordImage: UIImageView = {
         let view = UIImageView()
         view.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
@@ -40,10 +48,16 @@ class WordViewController: UIViewController {
     
     private func markup() {
         view.backgroundColor = .white
-        [wordLabelField, definitionLabelField, wordImage].forEach { view.addSubview($0) }
+        [wordLabelField, definitionLabelField, wordImage, downloadButton].forEach { view.addSubview($0) }
     
         wordLabelField.snp.makeConstraints() {
             $0.top.equalTo(view.snp.bottom).offset(-700)
+            $0.left.equalToSuperview().offset(16)
+            $0.right.equalToSuperview().offset(-16)
+        }
+        
+        downloadButton.snp.makeConstraints() {
+            $0.top.equalTo(view.snp.bottom).offset(-200)
             $0.left.equalToSuperview().offset(16)
             $0.right.equalToSuperview().offset(-16)
         }
@@ -88,8 +102,13 @@ class WordViewController: UIViewController {
         
     }
 
+    @objc func downloadImage() {
+        if let cacheImage = ImageCacher.shared.imageCache.object(forKey: wordObject!.image as NSString) as? UIImage {
+            UIImageWriteToSavedPhotosAlbum(cacheImage, nil, nil, nil)
+        }
+    }
+    
 }
-
 
 extension UIImageView {
     func downloaded(from url: URL, contentMode mode: UIView.ContentMode = .scaleAspectFit) { contentMode = mode
@@ -128,10 +147,6 @@ extension UIImageView {
             ImageCacher.shared.imageCache.setObject(image!, forKey: (urlString as AnyObject) as! NSString)
             DispatchQueue.main.async {
                 self.image = image
-            }
-            if let cacheImage = ImageCacher.shared.imageCache.object(forKey: urlString as AnyObject) as? UIImage {
-                
-                UIImageWriteToSavedPhotosAlbum(cacheImage, nil, nil, nil)
             }
         }.resume()
     }
